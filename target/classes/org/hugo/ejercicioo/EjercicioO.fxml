@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="212.0" prefWidth="748.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="203.79998779296875" minWidth="10.0" prefWidth="166.60001220703126" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="423.20001220703125" minWidth="10.0" prefWidth="411.20001220703125" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="215.20001220703125" minWidth="10.0" prefWidth="132.79998779296875" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <ImageView fitHeight="169.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../Imagenes/trigo.png" />
+            </image>
+            <GridPane.margin>
+                <Insets left="10.0" />
+            </GridPane.margin>
+        </ImageView>
+        <Label alignment="CENTER" contentDisplay="RIGHT" prefHeight="103.0" prefWidth="158.0" text="25" GridPane.columnIndex="2">
+            <font>
+                <Font size="70.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl_nombre" text="Trigo" GridPane.columnIndex="1">
+            <font>
+                <Font size="70.0" />
+            </font>
+            <GridPane.margin>
+                <Insets left="20.0" />
+            </GridPane.margin>
+        </Label>
+    </children>
+</GridPane>
